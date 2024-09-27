@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "currency-bot"
+version = "0.1.0"
+description = ""
+authors = ["Ekaterina Itchenko <ekaterina.savickaya.1989@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.13.1"
+python-dotenv = "^1.0.1"
+aiohttp = "^3.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
